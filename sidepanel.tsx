@@ -34,4 +34,4 @@ function IndexSidePanel() {
     )
 }
 
-export default IndexSidePanel
+export default IndexSidePanel;;
