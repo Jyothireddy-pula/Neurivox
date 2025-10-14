@@ -7,7 +7,7 @@ import HeroTitle from "~components/blocks/HeroTitle"
 function IndexSidePanel() {
     const [data, setData] = useState("Loading...")
 
-    useEffect(() => {klo
+    useEffect(() => {
         const messageListener = function (request, sender, sendResponse) {
             if (request.action === "send_to_sidepanel") {
                 setData(request.payload)
