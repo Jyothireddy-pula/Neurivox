@@ -5,6 +5,12 @@ Your Browser. Now Powered by AI.
 Extension | OS is a simple idea turned into a powerful browser extension — bringing AI directly where you need it.
 Instead of jumping between tabs to use ChatGPT or other tools, you can now run prompts right inside your browser with just a right-click.
 
+<hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
+
+<hr style="border:0; border-top:3px double #999; margin:25px 0;">
+
+
+
 🌐 What It Does
 
 Highlight any text → Right-click → Choose an AI action.
