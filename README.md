@@ -5,6 +5,8 @@ Your Browser. Now Powered by AI.
 Neurivox  | OS is a simple idea turned into a powerful browser extension — bringing AI directly where you need it.
 Instead of jumping between tabs to use ChatGPT or other tools, you can now run prompts right inside your browser with just a right-click.
 
+
+
 <hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
 
 
@@ -80,7 +82,7 @@ Improve UI/UX for prompt creation
 
 Add key encryption for more security
 
-Introduce multi-model workflows
+Introduce multi-model workflows.
 
 <hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
 
