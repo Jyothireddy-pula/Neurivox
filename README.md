@@ -14,7 +14,8 @@ Instead of jumping between tabs to use ChatGPT or other tools, you can now run p
 
 🌐 What It Does
 
-Highlight any text → Right-click → Choose an AI action.
+
+*Highlight any text → Right-click → Choose an AI action.
 
 Fix grammar, summarize content, rewrite text, translate — all instantly.
 
