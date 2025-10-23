@@ -1,5 +1,6 @@
 Neurivox  | OS
 
+
 Your Browser. Now Powered by AI.
 
 Neurivox  | OS is a simple idea turned into a powerful browser extension — bringing AI directly where you need it.
