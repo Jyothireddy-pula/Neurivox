@@ -68,8 +68,7 @@ Experimental Mode: Try “Mixture of Agents” to combine models for better resp
 
 ⚡ Optional (Local AI Setup)
 
-You can also connect it to a local AI server like Ollama
- to run models on your own machine.
+You can also connect it to a local AI server like Ollama to run models on your own machine.
 This means no internet or cloud connection needed — fully offline AI.
 
 <hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
