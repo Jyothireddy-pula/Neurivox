@@ -74,7 +74,6 @@ This means no internet or cloud connection needed — fully offline AI.
 
 <hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
 
-
 🧭 Future Plans
 
 Add chat directly inside the browser
