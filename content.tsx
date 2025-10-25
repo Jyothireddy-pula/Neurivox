@@ -73,7 +73,7 @@ const PlasmoOverlay = () => {
 
         chrome.runtime.onMessage.addListener(messageListener)
 
-        // Cleanup listener on component unmount
+        
         return () => chrome.runtime.onMessage.removeListener(messageListener)
     }, [])
 
