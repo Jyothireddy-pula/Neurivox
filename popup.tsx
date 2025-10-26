@@ -4,7 +4,6 @@ import "./globals.css"
 import { Button } from "~components/ui/button"
 
 function IndexPopup() {
-
     return (
         <div style={{ backgroundImage: `url(${backgroundExt})` }} className="bg-cover bg-center w-[300px] h-[300px] flex flex-col items-center justify-end gap-2">
 
