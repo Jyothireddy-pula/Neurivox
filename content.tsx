@@ -46,6 +46,11 @@ const PlasmoOverlay = () => {
             } catch (err) {
                 console.error("Could not copy text: ", err)
             }
+
+
+
+
+            
         }
 
         const messageListener = async (request) => {
