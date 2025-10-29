@@ -64,6 +64,9 @@ const PlasmoOverlay = () => {
                     setIsLoading(false)
                     setErrorDivVisibe(true)
                     setTimeout(() => {
+
+
+                        
                         setErrorDivVisibe(false)
                     }, 15000)
                     break
