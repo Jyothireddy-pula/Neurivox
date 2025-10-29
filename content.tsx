@@ -54,6 +54,9 @@ const PlasmoOverlay = () => {
                     setResponseText(request.text)
                     setIsLoading(false)
                     setSuccessDivVisibile(true)
+
+
+                    
                     handleClipboardCopy(request.text)
                     break
                 case "loadingAction":
