@@ -10,6 +10,9 @@ export const config: PlasmoCSConfig = {
     matches: ["https://*/*", "http://*/*"]
 }
 
+
+
+
 export const getStyle = () => {
     const style = document.createElement("style")
     style.textContent = cssText
