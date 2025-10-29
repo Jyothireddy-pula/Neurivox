@@ -76,7 +76,11 @@ const PlasmoOverlay = () => {
                 case "subscriptionLimitReached":
                     const data = await fetchData()
                     setIsLoading(false)
-                    window.open(`${process.env.PLASMO_PUBLIC_WEBSITE_EXTENSION_OS}/pricing?email=${data?.data.email}&profile_id=${data?.data.id}`, "_blank")
+                    window.open(`${process.env.PLASMO_PUBL
+                                   
+                                   
+                                   
+                                   IC_WEBSITE_EXTENSION_OS}/pricing?email=${data?.data.email}&profile_id=${data?.data.id}`, "_blank")
             }
         }
 
