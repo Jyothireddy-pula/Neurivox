@@ -6,6 +6,9 @@ import { useEffect, useState } from "react"
 import { useStorage } from "@plasmohq/storage/hook"
 import { sendToBackground } from "@plasmohq/messaging"
 
+
+
+
 export const config: PlasmoCSConfig = {
     matches: ["https://*/*", "http://*/*"]
 }
