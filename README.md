@@ -1,94 +1,93 @@
-Neurivox  | OS
+Neurivox | OS
 
+Your Web, Now Powered by AI.
 
-Your Browser. Now Powered by AI.
-
-Neurivox  | OS is a simple idea turned into a powerful browser extension — bringing AI directly where you need it.
-Instead of jumping between tabs to use ChatGPT or other tools, you can now run prompts right inside your browser with just a right-click.
-
-
+Neurivox | OS is a simple idea turned into a powerful web-based AI platform — bringing research, writing, coding, social, and advanced AI tools directly where you need them. Instead of juggling multiple tabs and tools, you can now run prompts, analyze data, summarize content, and automate tasks all inside a single web interface.
 
 <hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
-
-
 
 🌐 What It Does
 
+Access AI-powered tools for research, writing, code review, social media automation, and futuristic workflows.
 
-*Highlight any text → Right-click → Choose an AI action.
+Summarize PDFs and web pages, extract structured data, rewrite text, fix grammar, translate, or generate content — all instantly in one place.
 
-Fix grammar, summarize content, rewrite text, translate — all instantly.
-
-No switching tabs, no copy-pasting, no interruptions.
+No switching tabs, no copy-pasting, no interruptions — everything happens inside your web workspace.
 
 <hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
-
 
 💡 Why I Built This
 
-I was tired of repeating the same tasks with AI tools again and again.
-So I decided to build my own solution — a lightweight, open-source extension that makes AI feel like a natural part of browsing.
+I wanted a centralized platform where AI could assist in real-world tasks without friction. Researching, writing, coding, or managing social media felt repetitive and fragmented across different tools.
 
-This project started as an experiment and turned into something much more — a personal mission to make AI more accessible, faster, and effortless.
+Neurivox | OS started as an experiment to streamline workflows and became a mission: to make AI accessible, fast, and effortless for anyone using the web.
 
 <hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
-
 
 ⚙️ How to Use
 
-Download or clone this repo.
+Clone or download this repository.
 
-Open Chrome and go to chrome://extensions.
+git clone https://github.com/yourusername/neurivox-os.git
 
-Turn on Developer Mode.
 
-Click Load Unpacked and select the unzipped project folder.
+Install dependencies:
 
-Open the extension settings and add your API keys (like OpenAI or Groq).
+npm install
 
-That’s it — start right-clicking and using AI anywhere on the web!
+
+Run the web application:
+
+npm start
+
+
+Open the web app in your browser and configure your API keys (Gemini, AI Studio, or other supported endpoints).
+
+Explore modules and start interacting with AI — from research and writing to code review and automation.
 
 <hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
-
 
 ✨ Features
 
-Prompt Factory: Create and save your own AI commands.
+Research: Summarize text, PDFs, or web pages; analyze arguments; extract SEO keywords and structured data.
 
-Right-Click Actions: Run AI instantly without leaving the page.
+Writing: Grammar fixing, paraphrasing, translation, and email/message generation.
 
-Customizable Models: Choose from different AI providers.
+Code: Review snippets, detect bugs, generate test scripts, debug real-time errors.
 
-Local & Secure: All your data and API keys stay on your device.
+Social: Smart AI commenting for posts, social media automation.
 
-Experimental Mode: Try “Mixture of Agents” to combine models for better responses.
+Advanced Tools: Prompt Factory, mini-agent automation, voice commands, OCR/vision integration, multi-agent collaboration.
+
+Developer Tools: Web validation suite, CI notifications, debugging & logging.
+
+Integrations: Plugins, cross-app actions, cloud sync, LLM gateway support.
+
+Privacy: Local encryption, permissions, audit trails, and secure AI usage.
+
+Futuristic: OS-level AI copilot, live learning loop, AR/VR overlays, multi-agent workflows.
 
 <hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
 
-
 ⚡ Optional (Local AI Setup)
 
-You can also connect it to a local AI server like Ollama to run models on your own machine.
-This means no internet or cloud connection needed — fully offline AI.
+You can connect Neurivox | OS to a local AI server to run models offline. This allows full control over your data and offline AI workflows.
 
 <hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
 
 🧭 Future Plans
 
-Add chat directly inside the browser
+Add interactive chat and multi-agent collaboration inside the web app
 
-Improve UI/UX for prompt creation
+Improve UI/UX for prompt creation and management
 
-Add key encryption for more security
+Introduce multi-model workflows and LLM auto-selection
 
-Introduce multi-model workflows.
-
+Enhance security with key encryption and privacy features
 
 <hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
 
+Built By
 
- Built By
-
-Made with curiosity, caffeine, and code —
-
+Made with curiosity, creativity, and code —
 Jyothi Reddy.Pula
