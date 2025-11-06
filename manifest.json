@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Neurivox 2.0 | OS",
+  "short_name": "Neurivox",
+  "version": "1.0.0",
+  "description": "An AI-powered browser extension prototype for intelligent automation, validation, and user assistance across the web, featuring instant AI actions like summarization and grammar correction.",
+  
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f7fa",
+  "theme_color": "#4a90e2"
+}
