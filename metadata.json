@@ -1,0 +1,9 @@
+{
+  "name": "Neurivox 2.0 | OS",
+  "description": "An AI-powered browser extension prototype for intelligent automation, validation, and user assistance across the web, featuring instant AI actions like summarization and grammar correction.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera",
+    "geolocation"
+  ]
+}
