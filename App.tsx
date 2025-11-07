@@ -11,7 +11,6 @@ import { DebugLogLevel } from './types';
 import { Header } from './components/Header';
 import { DraggableNav } from './components/DraggableNav'; // NEW import
 import { MainContentPane } from './components/MainContentPane'; // NEW import
-
 const App: React.FC = () => {
   const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
   const [activeActionFromPalette, setActiveActionFromPalette] = useState<AIAction | undefined>(undefined);
