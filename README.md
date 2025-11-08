@@ -4,6 +4,7 @@ Your Web, Now Powered by AI.
 
 Neurivox | OS is a simple idea turned into a powerful web-based AI platform — bringing research, writing, coding, social, and advanced AI tools directly where you need them. Instead of juggling multiple tabs and tools, you can now run prompts, analyze data, summarize content, and automate tasks all inside a single web interface.
 
+
 <hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
 
 🌐 What It Does
