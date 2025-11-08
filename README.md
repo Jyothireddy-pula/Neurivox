@@ -8,6 +8,7 @@ Neurivox | OS is a simple idea turned into a powerful web-based AI platform — 
 
 🌐 What It Does
 
+
 Access AI-powered tools for research, writing, code review, social media automation, and futuristic workflows.
 
 Summarize PDFs and web pages, extract structured data, rewrite text, fix grammar, translate, or generate content — all instantly in one place.
