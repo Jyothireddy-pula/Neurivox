@@ -18,6 +18,7 @@ No switching tabs, no copy-pasting, no interruptions — everything happens insi
 
 💡 Why I Built This
 
+
 I wanted a centralized platform where AI could assist in real-world tasks without friction. Researching, writing, coding, or managing social media felt repetitive and fragmented across different tools.
 
 Neurivox | OS started as an experiment to streamline workflows and became a mission: to make AI accessible, fast, and effortless for anyone using the web.
