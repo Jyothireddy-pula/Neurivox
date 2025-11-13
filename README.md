@@ -1,93 +1,192 @@
-Neurivox | OS
+# Neurivox | OS
+### Your Web. Now Powered by AI.
+A unified AI operating system for your browser — built to make research, writing, automation, and code workflows faster, smarter, and frictionless.
 
-Your Web, Now Powered by AI.
+---
 
-Neurivox | OS is a simple idea turned into a powerful web-based AI platform — bringing research, writing, coding, social, and advanced AI tools directly where you need them. Instead of juggling multiple tabs and tools, you can now run prompts, analyze data, summarize content, and automate tasks all inside a single web interface.
+![Neurivox OS UI Mockup](https://via.placeholder.com/900x420?text=Neurivox+OS+UI+Mockup)
 
-<hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
+---
 
-🌐 What It Does
+## 🚀 Overview
+Neurivox | OS transforms the web into an intelligent workspace.
+Instead of juggling dozens of tabs and tools, Neurivox brings research, writing, coding, data extraction, automation, and social media tools into one seamless interface powered by AI.
 
-Access AI-powered tools for research, writing, code review, social media automation, and futuristic workflows.
+Built with **TypeScript + React + Vite**, it provides a modular architecture, professional UI, and multi-agent-ready infrastructure for next-gen workflows.
 
-Summarize PDFs and web pages, extract structured data, rewrite text, fix grammar, translate, or generate content — all instantly in one place.
+---
 
-No switching tabs, no copy-pasting, no interruptions — everything happens inside your web workspace.
+## ✨ Features at a Glance
 
-<hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
+### 🔍 Research Tools
+- Summarize websites, PDFs, and long articles  
+- Extract structured data, SEO keywords & insights  
+- Analyze arguments and generate reports  
 
-💡 Why I Built This
+### ✍️ Writing Tools
+- Rewrite, paraphrase, translate  
+- Fix grammar and improve tone  
+- Generate emails, blogs, captions, and scripts  
 
-I wanted a centralized platform where AI could assist in real-world tasks without friction. Researching, writing, coding, or managing social media felt repetitive and fragmented across different tools.
+### 💻 Code Intelligence
+- Debug code  
+- Explain snippets  
+- Review pull requests  
+- Generate test cases  
 
-Neurivox | OS started as an experiment to streamline workflows and became a mission: to make AI accessible, fast, and effortless for anyone using the web.
+### 📱 Social Media Automation
+- Auto comments  
+- Caption generation  
+- Insights extraction  
+- Post drafting with brand tone  
 
-<hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
+### 🧠 Advanced AI Tools
+- Prompt Factory  
+- Mini-Agent Automation  
+- OCR / Vision support  
+- Multi-agent collaborative workflows  
 
-⚙️ How to Use
+### 🔐 Privacy & Security
+- Local encryption  
+- Permission-based usage  
+- Custom LLM gateway support  
+- API key isolation  
 
-Clone or download this repository.
+---
 
-git clone https://github.com/yourusername/neurivox-os.git
+## 🖥️ Live Demo
+👉 **https://neurivox-os-jyothireddypula.netlify.app**
 
+---
 
-Install dependencies:
+## 📸 Screenshots
 
+![Dashboard Mockup](https://via.placeholder.com/800x420?text=Dashboard+Mockup)
+
+*Unified AI Dashboard*
+
+![Prompt Editor Mockup](https://via.placeholder.com/800x420?text=Prompt+Editor+Mockup)
+
+*Prompt Editor + Multi-Tool Panel*
+
+![Automation Workflow](https://via.placeholder.com/800x420?text=Automation+Workflows)
+
+*Automation & Multi-Agent Workflow Concept*
+
+---
+
+## 🧩 Architecture
+
+![Architecture Diagram](https://via.placeholder.com/950x480?text=Neurivox+Architecture+Diagram)
+
+### Architecture Breakdown
+
+```
+                       ┌──────────────────────────┐
+                       │       User Interface      │
+                       │  (React + TypeScript)     │
+                       └──────────────┬───────────┘
+                                      │
+                    UI Components / Sidebar / Prompt Editor
+                                      │
+                         ┌───────────▼────────────┐
+                         │      Service Layer      │
+                         │  (API Handlers, Utils)  │
+                         └───────────┬────────────┘
+                                      │
+                            EventEmitter / State Bus
+                                      │
+                         ┌───────────▼────────────┐
+                         │    LLM Gateway Layer    │
+                         │ (Gemini / Local AI API) │
+                         └───────────┬────────────┘
+                                      │
+                             Model Output Response
+                                      │
+                         ┌───────────▼────────────┐
+                         │   Response Renderer     │
+                         │  (Chat + Result Cards)  │
+                         └─────────────────────────┘
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone repository
+```
+git clone https://github.com/Jyothireddy-pula/Neurivox.git
+cd Neurivox
+```
+
+### 2. Install dependencies
+```
 npm install
+```
 
-
-Run the web application:
-
+### 3. Run development server
+```
 npm start
+```
 
+### 4. Configure API Keys
+Create `.env` file:
 
-Open the web app in your browser and configure your API keys (Gemini, AI Studio, or other supported endpoints).
+```
+VITE_GEMINI_KEY=your_key_here
+VITE_AI_STUDIO_KEY=your_key_here
+```
 
-Explore modules and start interacting with AI — from research and writing to code review and automation.
+---
 
-<hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
+## 🗂️ Project Structure
 
-✨ Features
+```
+Neurivox/
+│
+├── components/       → UI Components
+├── icons/            → Custom Icons
+├── services/         → API Integrations
+├── utils/            → Helpers (EventEmitter, parsers)
+├── types/            → TypeScript types
+├── index.html        → App entry point
+├── App.tsx           → Root component
+├── manifest.json     → App metadata
+└── tsconfig.json     → TS configuration
+```
 
-Research: Summarize text, PDFs, or web pages; analyze arguments; extract SEO keywords and structured data.
+---
 
-Writing: Grammar fixing, paraphrasing, translation, and email/message generation.
+## 🧭 Why I Built This
+Managing research, writing, coding, and social media across many tools felt slow and repetitive.  
+Neurivox | OS was built to centralize all AI workflows into one fast, frictionless interface.
 
-Code: Review snippets, detect bugs, generate test scripts, debug real-time errors.
+---
 
-Social: Smart AI commenting for posts, social media automation.
+## 🔮 Future Roadmap
+- 🚀 Real-time multi-agent collaboration  
+- 💬 Built-in chat interface  
+- 🤖 Auto-model selection based on task type  
+- 🔐 Enhanced security with encrypted credential vault  
+- 🌈 Improved UI/UX system  
+- 🛠 Plugin ecosystem and extensions  
 
-Advanced Tools: Prompt Factory, mini-agent automation, voice commands, OCR/vision integration, multi-agent collaboration.
+---
 
-Developer Tools: Web validation suite, CI notifications, debugging & logging.
+## 🏗️ Tech Stack
+- React + TypeScript  
+- Vite  
+- Custom EventEmitter Architecture  
+- Tailwind / Custom CSS  
+- LLM APIs (Gemini, Local AI, etc.)
 
-Integrations: Plugins, cross-app actions, cloud sync, LLM gateway support.
+---
 
-Privacy: Local encryption, permissions, audit trails, and secure AI usage.
+## 👨‍💻 Built By
+**Jyothi Reddy Pula**  
+Made with curiosity, creativity, and code 💙
 
-Futuristic: OS-level AI copilot, live learning loop, AR/VR overlays, multi-agent workflows.
+---
 
-<hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
-
-⚡ Optional (Local AI Setup)
-
-You can connect Neurivox | OS to a local AI server to run models offline. This allows full control over your data and offline AI workflows.
-
-<hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
-
-🧭 Future Plans
-
-Add interactive chat and multi-agent collaboration inside the web app
-
-Improve UI/UX for prompt creation and management
-
-Introduce multi-model workflows and LLM auto-selection
-
-Enhance security with key encryption and privacy features
-
-<hr style="border: none; height: 6px; background: #222; margin: 30px 0;">
-
-Built By
-
-Made with curiosity, creativity, and code —
-Jyothi Reddy.Pula
+## 📄 License
+Apache 2.0 License
