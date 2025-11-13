@@ -184,7 +184,7 @@ Neurivox | OS was built to centralize all AI workflows into one fast, frictionle
 
 ## 👨‍💻 Built By
 **Jyothi Reddy Pula**  
-Made with curiosity, creativity, and code 💙
+Made with curiosity, creativity, and code.
 
 ---
 
