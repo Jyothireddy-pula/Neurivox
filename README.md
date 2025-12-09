@@ -4,7 +4,8 @@ A unified AI operating system for your browser — built to make research, writi
 
 ---
 
-![Neurivox OS UI Mockup](https://via.placeholder.com/900x420?text=Neurivox+OS+UI+Mockup)
+![Neurivox OS UI Mockup](<img width="1416" height="808" alt="image" src="https://github.com/user-attachments/assets/898d0d45-4f37-4fbe-92fa-7cf67a772a41" />
+)
 
 ---
 
