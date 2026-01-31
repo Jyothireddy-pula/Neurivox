@@ -1,120 +1,94 @@
-# Neurivox | OS
-### Your Web. Now Powered by AI.
-A unified AI operating system for your browser — built to make research, writing, automation, and code workflows faster, smarter, and frictionless.
+# Neurivox | OS  
+### Your web, upgraded with AI
+
+**Neurivox | OS** is a browser-based AI workspace that brings research, writing, coding, and automation into a single, focused interface.  
+Instead of switching between tools and tabs, Neurivox lets you think, build, and create in one place.
+
+Built with **React, TypeScript, and Vite**, it’s designed to be modular, extensible, and ready for advanced AI workflows.
 
 ---
 
-![Neurivox OS UI Mockup](<img width="1416" height="808" alt="image" src="https://github.com/user-attachments/assets/898d0d45-4f37-4fbe-92fa-7cf67a772a41" />
-)
+## 🚀 What Neurivox Does
+
+Neurivox turns the browser into an intelligent work environment:
+
+- Research and summarize content  
+- Write, rewrite, and refine text  
+- Understand and improve code  
+- Experiment with agent-style automation  
+- Keep AI workflows organized and fast  
+
+The focus is on **clarity, speed, and control**, not feature overload.
 
 ---
 
-## 🚀 Overview
-Neurivox | OS transforms the web into an intelligent workspace.
-Instead of juggling dozens of tabs and tools, Neurivox brings research, writing, coding, data extraction, automation, and social media tools into one seamless interface powered by AI.
+## ✨ Core Features
 
-Built with **TypeScript + React + Vite**, it provides a modular architecture, professional UI, and multi-agent-ready infrastructure for next-gen workflows.
+### 🔍 Research
+- Summarize web pages and long content  
+- Extract key points and structured insights  
 
----
+### ✍️ Writing
+- Rewrite, paraphrase, and translate  
+- Improve tone, clarity, and grammar  
+- Generate emails, blogs, and short-form content  
 
-## ✨ Features at a Glance
+### 💻 Code Assistance
+- Explain and debug code snippets  
+- Generate test cases and suggestions  
 
-### 🔍 Research Tools
-- Summarize websites, PDFs, and long articles  
-- Extract structured data, SEO keywords & insights  
-- Analyze arguments and generate reports  
+### 🧠 Prompt & Agent Tools
+- Central prompt editor  
+- Task-based prompt execution  
+- Early-stage agent and workflow concepts  
 
-### ✍️ Writing Tools
-- Rewrite, paraphrase, translate  
-- Fix grammar and improve tone  
-- Generate emails, blogs, captions, and scripts  
-
-### 💻 Code Intelligence
-- Debug code  
-- Explain snippets  
-- Review pull requests  
-- Generate test cases  
-
-### 📱 Social Media Automation
-- Auto comments  
-- Caption generation  
-- Insights extraction  
-- Post drafting with brand tone  
-
-### 🧠 Advanced AI Tools
-- Prompt Factory  
-- Mini-Agent Automation  
-- OCR / Vision support  
-- Multi-agent collaborative workflows  
-
-### 🔐 Privacy & Security
-- Local encryption  
+### 🔐 Privacy First
+- API keys stored locally  
 - Permission-based usage  
 - Custom LLM gateway support  
-- API key isolation  
+
+---
+
+## 🧩 Feature Status
+
+| Feature | Status |
+|------|------|
+| Prompt editor | ✅ Implemented |
+| Research & writing tools | ✅ Implemented |
+| Code assistance | ✅ Implemented |
+| Event-based architecture | ✅ Implemented |
+| Multi-agent workflows | 🚧 In progress |
+| OCR / Vision support | 🧭 Planned |
+| Plugin system | 🧭 Planned |
 
 ---
 
 ## 🖥️ Live Demo
-👉 **https://neurivox-os-jyothireddypula.netlify.app**
+👉 https://neurivox-os-jyothireddypula.netlify.app
 
 ---
 
-## 📸 Screenshots
-
-![Dashboard Mockup](https://via.placeholder.com/800x420?text=Dashboard+Mockup)
-
-*Unified AI Dashboard*
-
-![Prompt Editor Mockup](https://via.placeholder.com/800x420?text=Prompt+Editor+Mockup)
-
-*Prompt Editor + Multi-Tool Panel*
-
-![Automation Workflow](https://via.placeholder.com/800x420?text=Automation+Workflows)
-
-*Automation & Multi-Agent Workflow Concept*
-
----
-
-## 🧩 Architecture
-
-![Architecture Diagram](https://via.placeholder.com/950x480?text=Neurivox+Architecture+Diagram)
-
-### Architecture Breakdown
+## 🧠 Architecture Overview
 
 ```
-                       ┌──────────────────────────┐
-                       │       User Interface      │
-                       │  (React + TypeScript)     │
-                       └──────────────┬───────────┘
-                                      │
-                    UI Components / Sidebar / Prompt Editor
-                                      │
-                         ┌───────────▼────────────┐
-                         │      Service Layer      │
-                         │  (API Handlers, Utils)  │
-                         └───────────┬────────────┘
-                                      │
-                            EventEmitter / State Bus
-                                      │
-                         ┌───────────▼────────────┐
-                         │    LLM Gateway Layer    │
-                         │ (Gemini / Local AI API) │
-                         └───────────┬────────────┘
-                                      │
-                             Model Output Response
-                                      │
-                         ┌───────────▼────────────┐
-                         │   Response Renderer     │
-                         │  (Chat + Result Cards)  │
-                         └─────────────────────────┘
+UI (React + TypeScript)
+        │
+Components & Sidebar
+        │
+Service Layer (APIs, helpers)
+        │
+Event Bus (EventEmitter)
+        │
+LLM Gateway (Gemini / Local Models)
+        │
+Response Renderer (Chat & Cards)
 ```
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Getting Started
 
-### 1. Clone repository
+### 1. Clone the repository
 ```
 git clone https://github.com/Jyothireddy-pula/Neurivox.git
 cd Neurivox
@@ -125,14 +99,13 @@ cd Neurivox
 npm install
 ```
 
-### 3. Run development server
+### 3. Start the development server
 ```
 npm start
 ```
 
-### 4. Configure API Keys
-Create `.env` file:
-
+### 4. Configure API keys
+Create a `.env` file:
 ```
 VITE_GEMINI_KEY=your_key_here
 VITE_AI_STUDIO_KEY=your_key_here
@@ -144,50 +117,50 @@ VITE_AI_STUDIO_KEY=your_key_here
 
 ```
 Neurivox/
-│
-├── components/       → UI Components
-├── icons/            → Custom Icons
-├── services/         → API Integrations
-├── utils/            → Helpers (EventEmitter, parsers)
-├── types/            → TypeScript types
-├── index.html        → App entry point
-├── App.tsx           → Root component
-├── manifest.json     → App metadata
-└── tsconfig.json     → TS configuration
+├── components/   UI components
+├── services/     API and LLM integrations
+├── utils/        Event bus and helpers
+├── types/        TypeScript definitions
+├── App.tsx       Root component
+└── manifest.json App metadata
 ```
 
 ---
 
-## 🧭 Why I Built This
-Managing research, writing, coding, and social media across many tools felt slow and repetitive.  
-Neurivox | OS was built to centralize all AI workflows into one fast, frictionless interface.
+## 🧭 Why Neurivox Exists
+
+Modern workflows are spread across too many tools.  
+Neurivox is an experiment in **consolidation** — bringing AI capabilities into one calm, focused space where work flows naturally.
 
 ---
 
-## 🔮 Future Roadmap
-- 🚀 Real-time multi-agent collaboration  
-- 💬 Built-in chat interface  
-- 🤖 Auto-model selection based on task type  
-- 🔐 Enhanced security with encrypted credential vault  
-- 🌈 Improved UI/UX system  
-- 🛠 Plugin ecosystem and extensions  
+## 🔮 Roadmap
+
+- Agent-based task orchestration  
+- Visual workflow builder  
+- Smarter model selection per task  
+- Encrypted credential vault  
+- Plugin and extension ecosystem  
+- Polished, keyboard-first UI  
 
 ---
 
 ## 🏗️ Tech Stack
+
 - React + TypeScript  
 - Vite  
-- Custom EventEmitter Architecture  
+- Custom EventEmitter architecture  
 - Tailwind / Custom CSS  
-- LLM APIs (Gemini, Local AI, etc.)
+- LLM APIs (Gemini, Local Models)
 
 ---
 
-## 👨‍💻 Built By
+## 👨‍💻 Author
+
 **Jyothi Reddy Pula**  
-Made with curiosity, creativity, and code.
+Built with curiosity, iteration, and a focus on better workflows.
 
 ---
 
 ## 📄 License
-Apache 2.0 License
+Apache 2.0
