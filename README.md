@@ -8,6 +8,7 @@ Built with **React, TypeScript, and Vite**, it’s designed to be modular, exten
 
 ---
 
+
 ## 🚀 What Neurivox Does
 
 Neurivox turns the browser into an intelligent work environment:
